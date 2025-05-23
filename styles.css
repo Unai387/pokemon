@@ -26,15 +26,30 @@ body {
 }
 
 .pokemon-info {
-    background-color: #d0f0c0;
     border-radius: 12px;
     padding: 15px;
 }
 
-.pokemon-name {
+.pokemon-info-plant {
+    background-color: #c0f3a7;
+}
+
+.pokemon-info-fire {
+    background-color: #eb6f49;
+
+}
+
+.pokemon-name-plant{
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 24px;
     color: #2e7d32;
+    margin: 0 0 10px 0;
+}
+
+.pokemon-name-fire{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    color: #ff0000;
     margin: 0 0 10px 0;
 }
 
@@ -46,14 +61,24 @@ body {
     margin-bottom: 8px;
 }
 
-.pokemon-type.plant {
+.pokemon-type-plant {
     background-color: #a5d6a7;
     color: #1b5e20;
 }
 
-.pokemon-type.poison {
+.pokemon-type-poison {
     background-color: #ce93d8;
     color: #4a148c;
+}
+
+.pokemon-type-fire {
+    background-color: #9b0f05;
+    color: #ff0000;
+}
+
+.pokemon-type-flying {
+    background-color: #a1babb;
+    color: #0da1ce;
 }
 
 .pokemon-description {
